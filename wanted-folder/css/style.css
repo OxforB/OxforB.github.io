@@ -113,7 +113,7 @@ section {
 }
 p {
     margin: 16rem auto;
-    padding: 0 auto;
+    padding: 0 2rem;
     width: 90%;
     text-align: left;
 }
@@ -138,8 +138,5 @@ figcaption {
 /* Footer */
 
 footer { 
-    padding: 16rem 16rem;
-    width: 32rem;
-    style: solid;
-    color: #333;
+    border-top: 2rem solid #344
 
