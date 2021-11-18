@@ -79,15 +79,15 @@ header, footer {
 
 /* Imported Typfaces */
 
-@font-face {
-    font-family: "josephineslab"
-    src: url;("/fonts/josephineslab-regular.ttf") format:("truetype")
+@font-face{
+    font-family: "josephineslab";
+    src: url;("/fonts/josephineslab-regular.ttf") format:("truetype");
     font-weight:normal;
     font-style:normal;
 }
-@font-face {
-    font-family: "montserrat"
-        url;(/fonts/montserrat-regular.ttf") format("truetype")
+@font-face{
+    font-family: "montserrat";
+    src: url;(/fonts/montserrat-regular.ttf") format("truetype")
     font-weight: normal;
     font-style: normal;
 }
