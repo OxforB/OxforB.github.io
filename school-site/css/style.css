@@ -79,41 +79,97 @@ header, footer {
 
 /* Imported Typfaces */
 
-
-
+@font-face {
+    font-family: "josephineslab"
+    src: url;("/fonts/josephineslab-regular.ttf") format:("truetype")
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+    font-family: "montserrat"
+        url;(/fonts/montserrat-regular.ttf") format("truetype")
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 /* Typography Styles */
+html {
+    font-family: sans-serif;
+    
+}
 
+h1{ 
+    letter-spacing: .125rem;
+     font-family: "josephineslab", serif
+    url;("/fonts/josephineslab-regular.ttf") format:("truetype");
+    font-weight:normal;
+    font-style:normal;
+    font-size: 3.75rem;
+    margin: 1.125rem;
+    text-align: center;
+}
 
-
-
+h2{
+    letter-spacing: .125rem;
+    font-family: "josephineslab", serif
+    url;("/fonts/josephineslab-regular.ttf") format:("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+h2 + p {
+    font-size: .75rem;
+    letter-spacing: .5px;
+    word-spacing: .125rem;
+}
+p{
+    font-size: .75rem;
+    letter-spacing: .5px;
+    word-spacing: .125rem;
+    text-indent: 1.5rem;
+}
+li{
+    font-size: .75rem;
+    letter-spacing: .5px;
+    word-spacing: .125rem;
+    text-indent: 1.5rem;
+}
+figcaption{
+    font-size: .75rem;
+    margin-bottom: 2rem;
+}
 
 
 /* Link Styling */
+a {}
 
+a:link,
+a:visited {}
 
-
-
-
+a:focus,
+a:hover {}
 
 /* List Styling */
 
+ul {}
 
+ol {}
 
-
-
-
+.long-list a:hover {}
 /* Navigation Menu */
 
+nav {}
 
+nav a {}
 
+nav a:focus,
+nav a:hover {}
 
-
-
+nav a:active {}
 /* Footer Styles */
 
-
+footer {}
 
 
 
