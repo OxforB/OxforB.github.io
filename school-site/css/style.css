@@ -79,13 +79,13 @@ header, footer {
 
 /* Imported Typfaces */
 
-@font-face{
+@font-face {
     font-family: "josephineslab";
     src: url;("/fonts/josephineslab-regular.ttf") format:("truetype");
     font-weight:normal;
     font-style:normal;
 }
-@font-face{
+@font-face {
     font-family: "montserrat";
     src: url;(/fonts/montserrat-regular.ttf") format("truetype")
     font-weight: normal;
@@ -144,10 +144,12 @@ figcaption{
 /* Link Styling */
 a {}
 
-a:link,
-a:visited {}
+a:link {color: #33658A
+}
+a:visited {color: #33658A
+}
 
-a:focus,
+a:focus {}
 a:hover {}
 
 /* List Styling */
