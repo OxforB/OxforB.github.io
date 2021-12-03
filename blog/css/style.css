@@ -53,3 +53,8 @@ div {
         margin: auto;
         leter-spacing:1.25rem;
 }
+font-face {
+         font-family: "josephineslab";
+    src: url;("/fonts/josephineslab-regular.ttf") format:("truetype");
+    font-weight:normal;
+    font-style:normal;
