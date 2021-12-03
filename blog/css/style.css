@@ -48,4 +48,8 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
-
+div {
+        padding: auto;
+        margin: auto;
+        leter-spacing:1.25rem;
+        
